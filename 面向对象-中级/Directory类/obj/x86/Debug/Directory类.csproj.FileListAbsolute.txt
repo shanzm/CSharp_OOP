@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\Directory类\bin\Debug\Directory类.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\Directory类\bin\Debug\Directory类.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\Directory类\obj\x86\Debug\Directory类.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\Directory类\obj\x86\Debug\Directory类.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\Directory类\obj\x86\Debug\Directory类.csprojResolveAssemblyReference.cache

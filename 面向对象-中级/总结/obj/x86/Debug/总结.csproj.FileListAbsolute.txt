@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\总结\bin\Debug\总结.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\总结\bin\Debug\总结.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\总结\obj\x86\Debug\总结.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\总结\obj\x86\Debug\总结.pdb

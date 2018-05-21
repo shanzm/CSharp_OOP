@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\接口\bin\Debug\接口.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\接口\bin\Debug\接口.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\接口\obj\x86\Debug\接口.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\接口\obj\x86\Debug\接口.pdb

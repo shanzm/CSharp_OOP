@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\序列化和反序列化\bin\Debug\序列化和反序列化.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\序列化和反序列化\bin\Debug\序列化和反序列化.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\序列化和反序列化\obj\x86\Debug\序列化和反序列化.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\序列化和反序列化\obj\x86\Debug\序列化和反序列化.pdb

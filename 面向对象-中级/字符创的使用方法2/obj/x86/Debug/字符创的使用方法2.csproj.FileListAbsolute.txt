@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符创的使用方法2\bin\Debug\字符创的使用方法2.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符创的使用方法2\bin\Debug\字符创的使用方法2.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符创的使用方法2\obj\x86\Debug\字符创的使用方法2.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符创的使用方法2\obj\x86\Debug\字符创的使用方法2.pdb

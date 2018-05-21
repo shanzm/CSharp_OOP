@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流\bin\Debug\FileStream文件流.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流\bin\Debug\FileStream文件流.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流\obj\x86\Debug\FileStream文件流.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流\obj\x86\Debug\FileStream文件流.pdb

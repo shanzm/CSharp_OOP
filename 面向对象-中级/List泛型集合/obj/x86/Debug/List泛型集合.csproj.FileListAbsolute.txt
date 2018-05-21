@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\List泛型集合\bin\Debug\List泛型集合.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\List泛型集合\bin\Debug\List泛型集合.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\List泛型集合\obj\x86\Debug\List泛型集合.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\List泛型集合\obj\x86\Debug\List泛型集合.pdb

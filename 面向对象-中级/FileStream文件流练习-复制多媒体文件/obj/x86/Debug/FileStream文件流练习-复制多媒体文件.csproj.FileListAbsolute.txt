@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流练习-复制多媒体文件\bin\Debug\FileStream文件流练习-复制多媒体文件.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流练习-复制多媒体文件\bin\Debug\FileStream文件流练习-复制多媒体文件.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流练习-复制多媒体文件\obj\x86\Debug\FileStream文件流练习-复制多媒体文件.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\FileStream文件流练习-复制多媒体文件\obj\x86\Debug\FileStream文件流练习-复制多媒体文件.pdb

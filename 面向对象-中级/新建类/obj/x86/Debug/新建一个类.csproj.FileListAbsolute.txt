@@ -1,0 +1,4 @@
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

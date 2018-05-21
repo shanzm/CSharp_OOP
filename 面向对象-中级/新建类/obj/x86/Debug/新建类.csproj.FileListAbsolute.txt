@@ -1,0 +1,9 @@
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+d:\documents\visual studio 2010\Projects\面向对象\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象\ConsoleApplication1\obj\x86\Debug\新建类.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\面向对象-初级\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-初级\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\新建类\obj\x86\Debug\ConsoleApplication1.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\新建类\obj\x86\Debug\ConsoleApplication1.pdb
