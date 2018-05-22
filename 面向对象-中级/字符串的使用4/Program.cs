@@ -55,16 +55,7 @@ namespace 字符串的使用4
             }
             Console .ReadKey ();
             */
-            //////////////////////////////////////////////////////法三
-            //string str = "fffffefefffffffefffffffffeffe";
-            //for (int i = 0; i <= str.Length - 1; i++)
-            //{
-            //    if (str[i]=='e')
-            //    {
-            //        Console.WriteLine (）;
-            //    }
-            //    Console.ReadKey ();
-            //}
+     
         }
     }
 }
