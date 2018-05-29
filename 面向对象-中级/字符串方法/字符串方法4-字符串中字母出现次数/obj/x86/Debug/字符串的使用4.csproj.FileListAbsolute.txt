@@ -1,0 +1,6 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符串的使用4\bin\Debug\字符串的使用4.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符串的使用4\bin\Debug\字符串的使用4.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符串的使用4\obj\x86\Debug\字符串的使用4.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\字符串的使用4\obj\x86\Debug\字符串的使用4.pdb
+D:\ForGit\CSharp_OOP_02\面向对象-中级\字符串的使用4\obj\x86\Debug\字符串的使用4.exe
+D:\ForGit\CSharp_OOP_02\面向对象-中级\字符串的使用4\obj\x86\Debug\字符串的使用4.pdb

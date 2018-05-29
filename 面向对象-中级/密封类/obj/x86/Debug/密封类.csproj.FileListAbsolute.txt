@@ -1,7 +1,0 @@
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\obj\x86\Debug\密封类.csprojResolveAssemblyReference.cache
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\bin\Debug\密封类.exe
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\bin\Debug\密封类.pdb
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\bin\Debug\ConsoleApplication1.exe
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\bin\Debug\ConsoleApplication1.pdb
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\obj\x86\Debug\密封类.exe
-d:\documents\visual studio 2010\Projects\面向对象-中级\密封类\obj\x86\Debug\密封类.pdb

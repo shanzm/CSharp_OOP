@@ -1,0 +1,8 @@
+d:\documents\visual studio 2010\Projects\面向对象-中级\部分类\bin\Debug\部分类.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\部分类\bin\Debug\部分类.pdb
+d:\documents\visual studio 2010\Projects\面向对象-中级\部分类\obj\x86\Debug\部分类.exe
+d:\documents\visual studio 2010\Projects\面向对象-中级\部分类\obj\x86\Debug\部分类.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\obj\x86\Debug\部分类.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\obj\x86\Debug\部分类.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\bin\Debug\部分类.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\bin\Debug\部分类.pdb

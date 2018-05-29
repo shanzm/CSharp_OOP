@@ -1,0 +1,4 @@
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法4-字符串中字母出现次数\obj\x86\Debug\字符串的使用4.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法4-字符串中字母出现次数\obj\x86\Debug\字符串的使用4.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法4-字符串中字母出现次数\bin\Debug\字符串的使用4.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法4-字符串中字母出现次数\bin\Debug\字符串的使用4.pdb
