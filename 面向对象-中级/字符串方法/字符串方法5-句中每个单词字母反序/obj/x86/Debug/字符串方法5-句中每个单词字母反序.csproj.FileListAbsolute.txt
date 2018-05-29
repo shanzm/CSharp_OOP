@@ -2,3 +2,5 @@ D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法5-�
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法5-句中每个单词字母反序\bin\Debug\字符串方法5-句中每个单词字母反序.pdb
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法5-句中每个单词字母反序\obj\x86\Debug\字符串方法5-句中每个单词字母反序.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法5-句中每个单词字母反序\obj\x86\Debug\字符串方法5-句中每个单词字母反序.pdb
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法5-句中每个单词字母反序\obj\x86\Debug\字符串方法5-句中每个单词字母反序.exe
+D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法5-句中每个单词字母反序\obj\x86\Debug\字符串方法5-句中每个单词字母反序.pdb
