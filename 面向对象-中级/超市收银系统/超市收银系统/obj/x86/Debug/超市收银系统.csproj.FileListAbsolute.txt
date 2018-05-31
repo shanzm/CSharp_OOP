@@ -5,3 +5,5 @@ d:\documents\visual studio 2010\Projects\超市收银系统\超市收银系统\o
 D:\Documents\Visual Studio 2010\Projects\超市收银系统\超市收银系统\obj\x86\Debug\超市收银系统.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\超市收银系统\超市收银系统\obj\x86\Debug\超市收银系统.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\超市收银系统\超市收银系统\obj\x86\Debug\超市收银系统.pdb
+F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\超市收银系统\超市收银系统\obj\x86\Debug\超市收银系统.exe
+F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\超市收银系统\超市收银系统\obj\x86\Debug\超市收银系统.pdb

@@ -10,6 +10,7 @@ namespace FileStream文件流
     {
         static void Main(string[] args)
         {
+            #region 使用文件流来读取文件数据
             ///使用文件流来读取文件数据
             FileStream fsRead = new FileStream(@"C:\Users\shanzm\Desktop\1.txt", FileMode.OpenOrCreate, FileAccess.Read);
 
@@ -26,25 +27,44 @@ namespace FileStream文件流
             fsRead.Close();
             ///释放流占用的资源
             fsRead.Dispose();
-
             ///我们并不习惯，要写关闭流和释放流资源的
             ///故有其他的语法，可以省略，见下面的使用文件流写入数据的代码
             ///我们把创建文件流对象的代码写在using（。。。）中，在
             ///大括号中写读取和写入数据的代码
             Console.WriteLine(s);
-           
+            #endregion
 
 
+            #region 使用文件流写入数据
             ///使用文件流写入数据
-            using (FileStream fsWrite = new FileStream(@"C:\Users\shanzm\Desktop\1.txt",FileMode.OpenOrCreate ,FileAccess .Write ))
-            {
-                string str = "覆盖测试";
-                byte[] butter2 = Encoding.Default.GetBytes (str);
-                fsWrite.Write(butter2, 0, butter2.Length);
 
+            ///如果该路径已经存在该文件，则在该文件继续添加内容，使用参数FileMode.Append
+            if (File.Exists(@"C:\Users\shanzm\Desktop\1.txt"))
+            {
+                using (FileStream fsWrite = new FileStream(@"C:\Users\shanzm\Desktop\1.txt", FileMode.Append, FileAccess.Write))
+                {
+                    string str = "覆盖测试";
+                    byte[] butter2 = Encoding.Default.GetBytes(str);
+                    fsWrite.Write(butter2, 0, butter2.Length);
+
+                }
+                Console.WriteLine("写入ok");
             }
-            Console.WriteLine("写入ok");
+            else
+            {
+
+
+                using (FileStream fsWrite = new FileStream(@"C:\Users\shanzm\Desktop\1.txt", FileMode.OpenOrCreate, FileAccess.Write))
+                {
+                    string str = "覆盖测试";
+                    byte[] butter2 = Encoding.Default.GetBytes(str);
+                    fsWrite.Write(butter2, 0, butter2.Length);
+
+                }
+                Console.WriteLine("写入ok");
+            }
             Console.ReadKey();
         }
+            #endregion
     }
 }

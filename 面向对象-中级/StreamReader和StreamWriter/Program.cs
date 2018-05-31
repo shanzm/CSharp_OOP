@@ -11,6 +11,8 @@ namespace StreamReader和StreamWriter
     /// StreamReader和StreamWriter这两个类和FileStream不同之处就在于
     /// StreamReader和StreamWriter是处理字符的，而FileStream是处理字节的
     /// 注意FileStream相比来说更重要，因为他可以处理各种文件，而且可以处理大文件
+    /// 
+    /// file类中的File.WriteAllLine等就是StreamWrite的封装
     /// </summary>
     class Program
     {

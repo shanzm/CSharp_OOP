@@ -2,3 +2,7 @@ d:\documents\visual studio 2010\Projects\面向对象-中级\File类\bin\Debug\F
 d:\documents\visual studio 2010\Projects\面向对象-中级\File类\bin\Debug\File类.pdb
 d:\documents\visual studio 2010\Projects\面向对象-中级\File类\obj\x86\Debug\File类.exe
 d:\documents\visual studio 2010\Projects\面向对象-中级\File类\obj\x86\Debug\File类.pdb
+F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\File类\obj\x86\Debug\File类.exe
+F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\File类\obj\x86\Debug\File类.pdb
+F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\File类\bin\Debug\File类.exe
+F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\File类\bin\Debug\File类.pdb

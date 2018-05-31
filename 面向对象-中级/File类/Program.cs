@@ -22,6 +22,9 @@ namespace File类
             //File.Copy(@"C:\Users\shanzm\Desktop\1.txt", @"C:\Users\shanzm\Desktop\11.txt");
             ///注意，复制到新的文件11.txt，是系统新建的，不能该路径已经存在的
            
+            //剪切文件
+            //File.Move(@"C:\Users\shanzm\Desktop\2.txt", @"C:\Users\shanzm\Desktop\1.txt");
+
 
 
             ////读取文件之ReadAllByte
@@ -79,9 +82,9 @@ namespace File类
 
             ///注意WriteAll系类的写入方法都是覆盖式的写入，参数中文件路径有该文件则覆盖掉，没有则新建该文件
 
-            //追加式写入——AddAll系列
+           // 追加式写入——AddAll系列
             File .AppendAllLines (@"C:\Users\shanzm\Desktop\1.txt",text);
-
+            File.AppendAllText(@"C:\Users\shanzm\Desktop\1.txt", "添加内容");
 
 
 
