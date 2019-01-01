@@ -9,3 +9,8 @@ D:\Documents\Visual Studio 2010\Projects\面向对象-中级\新建类\obj\x86\D
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\新建类\obj\x86\Debug\ConsoleApplication1.pdb
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\新建类\bin\Debug\ConsoleApplication1.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\新建类\bin\Debug\ConsoleApplication1.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\新建类\obj\x86\Debug\ConsoleApplication1.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\新建类\obj\x86\Debug\ConsoleApplication1.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\新建类\bin\Debug\ConsoleApplication1.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\新建类\bin\Debug\ConsoleApplication1.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\新建类\obj\x86\Debug\新建类.csprojResolveAssemblyReference.cache

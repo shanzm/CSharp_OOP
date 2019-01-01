@@ -42,8 +42,8 @@ namespace 继承
         public Person(string name, char gender, int age)
         {
             this.Name = name;///此处不要写作this._name=name,要通过属性Name来赋值初始化，
-            ///因为你要记得属性的作用就是用来限制字段取什么样的值的，字段
-            ///一切的数据交换都有属性作为中间人
+                             ///因为你要记得属性的作用就是用来限制字段取什么样的值的，字段
+                             ///一切的数据交换都有属性作为中间人
             this.Gender = gender;
             this.Age = age;
         }
@@ -53,7 +53,7 @@ namespace 继承
             set;
             get;
         }
-
+        
         char _gender;
         public char Gender
         {

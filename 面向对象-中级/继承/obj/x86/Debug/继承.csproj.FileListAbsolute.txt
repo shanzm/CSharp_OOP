@@ -2,3 +2,5 @@ d:\documents\visual studio 2010\Projects\面向对象-中级\继承\bin\Debug\�
 d:\documents\visual studio 2010\Projects\面向对象-中级\继承\bin\Debug\继承.pdb
 d:\documents\visual studio 2010\Projects\面向对象-中级\继承\obj\x86\Debug\继承.exe
 d:\documents\visual studio 2010\Projects\面向对象-中级\继承\obj\x86\Debug\继承.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\继承\obj\x86\Debug\继承.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\继承\obj\x86\Debug\继承.pdb

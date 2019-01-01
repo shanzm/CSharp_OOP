@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "f:\\ForGit\\CSharp_OOP_02\\面向对象-中级\\键值对Hashtable\\键值对集合Hashtable.csproj",
+  "TargetFramework": "v4.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

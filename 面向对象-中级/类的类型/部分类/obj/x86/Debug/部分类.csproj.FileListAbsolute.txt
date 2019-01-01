@@ -6,3 +6,5 @@ D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\obj\x86\Debug\部分类.pdb
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\bin\Debug\部分类.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\类的类型\部分类\bin\Debug\部分类.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\类的类型\部分类\obj\x86\Debug\部分类.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\类的类型\部分类\obj\x86\Debug\部分类.pdb
