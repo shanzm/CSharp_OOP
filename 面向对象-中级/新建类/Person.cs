@@ -21,9 +21,41 @@ using System.Text;
 
 namespace 新建类
 {
+
     public class Person
     {
-        //string _name;//字段
+        //无参构造函数，这是默认的构造函数（本身不需要写，但是一旦你自己写了构造函数，就会被覆盖了，因为后面会用到，我们就自己写了
+        public Person()
+        {
+            this.Name = "志铭";
+            this.Age = 24;
+            
+        }
+
+        //构造函数
+        public Person(string name, int age, string gender)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Gender = gender;
+        }
+
+        //构造函数重载--直接默认性别是男
+        public Person(string name, int age) : this(name, age, "男")
+        {
+            //注意这里的构造函数重载，使用的this关键字
+        }
+
+
+
+        public Person(string gender):this()//this()代表了无参构造函数
+        {
+
+            this.Gender = gender;
+        }
+
+
+        string _name;//字段
 
         //public string Name//属性
         //{
@@ -84,9 +116,12 @@ namespace 新建类
 
         //1.作为当前类的实例对象
 
-        //2.作为类中构造函数的重构函数的串联函数
+        //2.写构造函数重载时，通过this()调用构造函数 
 
-        
+        //3.作为扩展方法的关键字（见面项目“扩展方法”)
+
+
+
         #endregion
 
         #region base
@@ -96,4 +131,7 @@ namespace 新建类
 
         #endregion
     }
+
+
+
 }

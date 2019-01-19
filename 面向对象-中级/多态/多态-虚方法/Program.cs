@@ -6,6 +6,9 @@ using System.Text;
 namespace 多态
 {
     /// <summary>
+    /// 多态性 一词最早用于生物学 指同一种族的不同生物体具有相同的特性(换言之：同一个特性表现在不同的生物体上）
+    /// 在 C#中 多态性的定义是 ：同一操作作用于不同的类的实例 不同的类将进行不同的解释 最后产生不同的执行结果
+    
     /// 多态是指使一种对象具有多种形态（类型）
     /// 多态实现的方法有三种：1.虚方法，1.抽象类，3.接口
     /// </summary>
@@ -139,10 +142,10 @@ namespace 多态
             American am = new American("川普");
             Person p = new Person();//用虚方法实现多态主要原因就是我们需要实例化父类
 
-            Person[] person = new Person[6] { cn1, cn2, ja, ko, am ,p};
+            Person[] person = new Person[6] { cn1, cn2, ja, ko, am, p };
             foreach (Person item in person)
             {
-                item.SayHello ();
+                item.SayHello();
             }
             Console.ReadKey();
         }
@@ -167,7 +170,7 @@ namespace 多态
         {
         }
 
-        public virtual  void SayHello()///在此处父类的方法声明处添加关键字virtual（虚拟的）
+        public virtual void SayHello()///在此处父类的方法声明处添加关键字virtual（虚拟的）
         {
             Console.WriteLine("我是人类");
         }

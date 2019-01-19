@@ -8,3 +8,5 @@ D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-接�
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-接口\obj\x86\Debug\接口.pdb
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-接口\bin\Debug\接口.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-接口\bin\Debug\接口.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\多态\多态-接口\obj\x86\Debug\接口.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\多态\多态-接口\obj\x86\Debug\接口.pdb

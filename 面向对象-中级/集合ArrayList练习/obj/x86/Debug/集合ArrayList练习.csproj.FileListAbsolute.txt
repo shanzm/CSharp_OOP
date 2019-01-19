@@ -2,3 +2,5 @@ d:\documents\visual studio 2010\Projects\面向对象-中级\集合ArrayList练�
 d:\documents\visual studio 2010\Projects\面向对象-中级\集合ArrayList练习\bin\Debug\集合ArrayList练习.pdb
 d:\documents\visual studio 2010\Projects\面向对象-中级\集合ArrayList练习\obj\x86\Debug\集合ArrayList练习.exe
 d:\documents\visual studio 2010\Projects\面向对象-中级\集合ArrayList练习\obj\x86\Debug\集合ArrayList练习.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\集合ArrayList练习\obj\x86\Debug\集合ArrayList练习.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\集合ArrayList练习\obj\x86\Debug\集合ArrayList练习.pdb

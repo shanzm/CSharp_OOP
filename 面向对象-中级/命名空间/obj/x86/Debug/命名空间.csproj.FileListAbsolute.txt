@@ -8,3 +8,8 @@ D:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\obj\x86\Debug\命名空
 D:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\obj\x86\Debug\命名空间.pdb
 F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\obj\x86\Debug\命名空间.exe
 F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\obj\x86\Debug\命名空间.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\bin\Debug\命名空间.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\bin\Debug\命名空间.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\bin\Debug\ConsoleApplication1.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\bin\Debug\ConsoleApplication1.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\命名空间\obj\x86\Debug\命名空间.csprojResolveAssemblyReference.cache

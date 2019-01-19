@@ -9,16 +9,19 @@ namespace 新建类
     {
         static void Main(string[] args) 
         {
-            Person szm = new Person();
-            szm.Name = "志铭";
-            szm.Age = 24;
-            szm.Gender = "不告诉你";
+            Person p0 = new Person();//使用的是无参构造函数
+            p0.Name = "志铭";
+            p0.Age = 24;
+            p0.Gender = "不告诉你";
+            p0.Introduct();
 
-            szm.Introduct();
-            string a = "小米";
-            Console.WriteLine($"hello {a}");
+            Person p1 = new Person("单志铭", 25);
+            p1.Introduct();
+
+            Person p2 = new Person("女");
+            p2.Introduct();
+
             Console.ReadKey();
-            
         }
     }
 }

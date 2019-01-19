@@ -8,3 +8,5 @@ D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-总�
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-总结\obj\x86\Debug\总结.pdb
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-总结\bin\Debug\总结.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-总结\bin\Debug\总结.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\多态\多态-总结\obj\x86\Debug\总结.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\多态\多态-总结\obj\x86\Debug\总结.pdb

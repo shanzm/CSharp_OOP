@@ -16,9 +16,7 @@ namespace 命名空间
              * 通过对项目中的“引用”->右键添加引用->项目”新建类“，
              * 之后再，直接使用，vs会自动出现提示下拉框，选择添加”using 新建类“（快捷键是shift+alt+f10），就可以使用Person类了*/
             Person szm = new Person();
-            szm.Name = "志铭";
-            szm.Age = 24;
-            szm.Gender = "男";
+            
 
             szm.Introduct();
             Console.ReadKey();

@@ -6,3 +6,5 @@ D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-虚�
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-虚方法\obj\x86\Debug\多态.pdb
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-虚方法\bin\Debug\多态.exe
 D:\Documents\Visual Studio 2010\Projects\面向对象-中级\多态\多态-虚方法\bin\Debug\多态.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\多态\多态-虚方法\obj\x86\Debug\多态.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\多态\多态-虚方法\obj\x86\Debug\多态.pdb
