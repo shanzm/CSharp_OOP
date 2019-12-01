@@ -6,6 +6,7 @@ using static System.Console;
 
 namespace 新建类
 {
+
     class Person2
     {
         public int Age { get; set; }
@@ -22,4 +23,6 @@ namespace 新建类
             WriteLine($"我是{this.Name},我的年龄是{this.Age},我是一个{this.Gender},你好！");
         }
     }
+
+ 
 }

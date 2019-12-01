@@ -6,3 +6,5 @@ F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\字符串方法\字符
 F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法3-练习\bin\Debug\字符串的使用3.pdb
 F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法3-练习\obj\x86\Debug\字符串的使用3.exe
 F:\ForGit\CSharp_OOP_02\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法3-练习\obj\x86\Debug\字符串的使用3.pdb
+F:\ForGit\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法3-练习\obj\x86\Debug\字符串的使用3.exe
+F:\ForGit\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法3-练习\obj\x86\Debug\字符串的使用3.pdb
