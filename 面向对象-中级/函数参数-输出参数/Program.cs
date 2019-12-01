@@ -35,7 +35,7 @@ namespace 函数参数_输出参数
             Console.ReadKey();
         }
 
-        static void Do(out int num1, out int num2)//这里的num1和myClass就是形参
+        static void Do(out int num1, out int num2)
         {
             num1 = 1;//在方法内部，输出参数在被读取之前必须被赋值
             num1 += 9;
