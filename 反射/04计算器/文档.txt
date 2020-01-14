@@ -1,0 +1,8 @@
+使用反射实现的计算器
+你可以自己扩展功能
+新建一个类库
+引用ProOperation.dll
+继承其中的类Operation
+编写新的运算功能子类
+生成dll文件放在Plug文件夹中
+在配置文件Config.txt中添加你的运算符
