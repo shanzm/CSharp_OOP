@@ -1,4 +1,0 @@
-d:\documents\visual studio 2010\Projects\面向对象-中级\接口特点\bin\Debug\接口特点.exe
-d:\documents\visual studio 2010\Projects\面向对象-中级\接口特点\bin\Debug\接口特点.pdb
-d:\documents\visual studio 2010\Projects\面向对象-中级\接口特点\obj\x86\Debug\接口特点.exe
-d:\documents\visual studio 2010\Projects\面向对象-中级\接口特点\obj\x86\Debug\接口特点.pdb

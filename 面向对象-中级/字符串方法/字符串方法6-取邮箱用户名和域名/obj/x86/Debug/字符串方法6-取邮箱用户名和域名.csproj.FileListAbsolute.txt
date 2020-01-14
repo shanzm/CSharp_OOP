@@ -1,4 +1,0 @@
-D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法6-取邮箱用户名和域名\obj\x86\Debug\字符串方法5-取邮箱用户名和域名.exe
-D:\Documents\Visual Studio 2010\Projects\面向对象-中级\字符串方法\字符串方法6-取邮箱用户名和域名\obj\x86\Debug\字符串方法5-取邮箱用户名和域名.pdb
-F:\ForGit\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法6-取邮箱用户名和域名\obj\x86\Debug\字符串方法5-取邮箱用户名和域名.exe
-F:\ForGit\CSharp_OOP_02\面向对象-中级\字符串方法\字符串方法6-取邮箱用户名和域名\obj\x86\Debug\字符串方法5-取邮箱用户名和域名.pdb

@@ -1,5 +1,0 @@
-F:\ForGit\CSharp_OOP_02\面向对象-中级\函数参数-输出参数\bin\Debug\函数参数-输出参数.exe.config
-F:\ForGit\CSharp_OOP_02\面向对象-中级\函数参数-输出参数\bin\Debug\函数参数-输出参数.exe
-F:\ForGit\CSharp_OOP_02\面向对象-中级\函数参数-输出参数\bin\Debug\函数参数-输出参数.pdb
-F:\ForGit\CSharp_OOP_02\面向对象-中级\函数参数-输出参数\obj\Debug\函数参数-输出参数.exe
-F:\ForGit\CSharp_OOP_02\面向对象-中级\函数参数-输出参数\obj\Debug\函数参数-输出参数.pdb
