@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举和Convert", "ch05ex03\枚举和Convert.csproj", "{91877EC8-BD34-462C-A2D8-594FFDC2371C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91877EC8-BD34-462C-A2D8-594FFDC2371C}.Debug|x86.ActiveCfg = Debug|x86
+		{91877EC8-BD34-462C-A2D8-594FFDC2371C}.Debug|x86.Build.0 = Debug|x86
+		{91877EC8-BD34-462C-A2D8-594FFDC2371C}.Release|x86.ActiveCfg = Release|x86
+		{91877EC8-BD34-462C-A2D8-594FFDC2371C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
