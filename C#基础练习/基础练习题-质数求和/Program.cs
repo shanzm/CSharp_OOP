@@ -9,38 +9,57 @@ namespace 基础练习题_质数求和
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PrimeSum ());
+            Console.WriteLine(PrimeSum2()); //1060
             Console.ReadKey();
-        } 
+        }
 
         /// <summary>
         /// 0-100质数求和
         /// 质数定义为在大于1的自然数中，除了1和它本身以外不再有其他因数
         /// </summary>
         /// <returns></returns>
-        public static int PrimeSum()
+        public static int PrimeSum1()
         {
-            
             int sum = 0;
             for (int i = 2; i < 101; i++)// 1不是质数,故从2开始
             {
-                bool b=true;
+                bool b = true;
                 for (int j = 2; j < i; j++)
                 {
-                    if (i%j==0)
+                    if (i % j == 0)
                     {
                         b = false;
                         break;
                     }
                 }
-
-               
-
                 if (b)
                 {
                     sum += i;
                 }
-               
+
+            }
+            return sum;
+        }
+
+        public static int PrimeSum2()
+        {
+
+            int sum = 0;
+            for (int i = 2; i < 101; i++)
+            {
+                bool b = true;
+                for (int j = 2; j <= Convert.ToInt32(Math.Sqrt(i)); j++)
+                {
+                    if (i % j == 0)
+                    {
+                        b = false;
+                        break;
+                    }
+                }
+                if (b)
+                {
+                    sum += i;
+                }
             }
             return sum;
         }
