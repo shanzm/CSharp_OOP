@@ -9,12 +9,10 @@ namespace 基础练习题_质数判断
     {
         static void Main(string[] args)
         {
-            // string b = Judge(5).ToString();
-            bool b = LsPrime2(9);
-            Console.WriteLine(b);//可以直接打印布尔类型变量
+            bool b = IsPrime3(5);
+            Console.WriteLine(b);
 
-            double a = 2.8;
-            Console.WriteLine(((int)a+1));
+            
             Console.ReadKey();
         }
 
@@ -26,7 +24,7 @@ namespace 基础练习题_质数判断
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        public static bool LsPrime(int n)
+        public static bool IsPrime1(int n)
         {
             if (n < 2)
             {
@@ -46,19 +44,38 @@ namespace 基础练习题_质数判断
             return true;
         }
 
-        //改进：
+        //改进1：
         //一个数若可以进行因数分解，那么分解时得到的两个数一定是一个小于等于sqrt(n)，一个大于等于sqrt(n)，
         //据此，上述代码中并不需要遍历到n-1，遍历到sqrt(n)即可，因为若sqrt(n)左侧找不到约数，那么右侧也一定找不到约数
-        public static bool LsPrime2(int n)
+        public static bool IsPrime2(int n)
         {
             int temp = Convert.ToInt16((Math.Sqrt(n)));
 
-            for (int i = 2; i <=temp; i++)//注意这里是“<=”
+            for (int i = 2; i <= temp; i++)//注意这里是“<=”
             {
                 if (temp % i == 0)
                 {
                     return false;
                 }
+            }
+            return true;
+        }
+
+        public static bool IsPrime3(int n)
+        {
+            if (n % 2 == 0)
+                return n == 2;
+            if (n % 3 == 0)
+                return n == 3;
+            if (n % 5 == 0)
+                return n == 5;
+
+            int i;
+            int temp = (int)Math.Sqrt(n);
+            for (i = 7; i <= temp; i += 2)
+            {
+                if (n % i == 0)
+                    return false;
             }
             return true;
         }
