@@ -10,6 +10,9 @@ namespace UML
     {
         public double Salary { get; set; }
 
+        public IEnumerable<Student> students { get; set; }
+
+        public Class @class { get; set; }
 
         public void Eat()
         {

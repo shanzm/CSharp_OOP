@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Animal.cs" />
     <Compile Include="Biology.cs" />
+    <Compile Include="Class.cs" />
     <Compile Include="ILivable.cs" />
     <Compile Include="IWorkable.cs" />
     <Compile Include="Person.cs" />

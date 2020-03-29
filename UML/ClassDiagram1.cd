@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="UML.Person">
-    <Position X="2.25" Y="4.25" Width="1.5" />
+    <Position X="2.75" Y="4.25" Width="1.5" />
     <NestedTypes>
       <Enum Name="UML.Person.Gender" Collapsed="true">
         <TypeIdentifier>
@@ -15,44 +15,95 @@
     </TypeIdentifier>
   </Class>
   <Class Name="UML.Student">
-    <Position X="1" Y="7" Width="1.5" />
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <AssociationLine Name="teacher" Type="UML.Teacher">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="4.12" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="@class" Type="UML.Class">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.527" Y="-0.232" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAQAAAAEQAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <HashCode>AAAQAAAAEQAAAAAAAAAIBAAAAAAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Student.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="teacher" />
+      <Property Name="@class" />
+    </ShowAsAssociation>
     <Lollipop Position="0.106" />
   </Class>
   <Class Name="UML.Teacher">
-    <Position X="3.25" Y="7" Width="1.5" />
+    <Position X="7" Y="7" Width="1.5" />
+    <AssociationLine Name="@class" Type="UML.Class">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.225" Y="-0.19" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="students" Type="UML.Student">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.933" Y="0.175" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAgAACAAEQAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAgAACAAEQAAAAAAAAAIAAAAAAABAAAEAAAAAAACAAA=</HashCode>
       <FileName>Teacher.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="@class" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="students" />
+    </ShowAsCollectionAssociation>
     <Lollipop Position="1.033" />
   </Class>
   <Class Name="UML.Biology">
-    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Position X="2.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
       <FileName>Biology.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UML.Animal">
-    <Position X="2.25" Y="2.25" Width="1.5" />
+    <Position X="2.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="UML.Class">
+    <Position X="3.5" Y="8.75" Width="1.5" />
+    <AssociationLine Name="students" Type="UML.Student">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.391" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="teachers" Type="UML.Teacher">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.141" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAI=</HashCode>
+      <FileName>Class.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="students" />
+      <Property Name="teachers" />
+    </ShowAsCollectionAssociation>
+  </Class>
   <Interface Name="UML.ILivable" Collapsed="true">
-    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ILivable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="UML.IWorkable" Collapsed="true">
-    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Position X="8" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IWorkable.cs</FileName>

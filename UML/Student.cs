@@ -11,6 +11,9 @@ namespace UML
         public string stuNum { get; set; }
 
         public Teacher teacher { get; set; }
+
+        public Class @class { get; set; }
+
         public void Eat()
         {
             Console.WriteLine("学生吃饭");
