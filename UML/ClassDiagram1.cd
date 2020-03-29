@@ -2,13 +2,6 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="UML.Person">
     <Position X="2.75" Y="4.25" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="UML.Person.Gender" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Person.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Person.cs</FileName>
@@ -38,18 +31,18 @@
   </Class>
   <Class Name="UML.Teacher">
     <Position X="7" Y="7" Width="1.5" />
+    <AssociationLine Name="students" Type="UML.Student">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.954" Y="0.04" />
+      </MemberNameLabel>
+    </AssociationLine>
     <AssociationLine Name="@class" Type="UML.Class">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="1.225" Y="-0.19" />
       </MemberNameLabel>
     </AssociationLine>
-    <AssociationLine Name="students" Type="UML.Student">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="3.933" Y="0.175" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAgAACAAEQAAAAAAAAAIAAAAAAABAAAEAAAAAAACAAA=</HashCode>
+      <HashCode>AAAAQCAAEQAAAAAAAAAIAAAAAAABAAAEAAAAAAACAAA=</HashCode>
       <FileName>Teacher.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -59,20 +52,6 @@
       <Property Name="students" />
     </ShowAsCollectionAssociation>
     <Lollipop Position="1.033" />
-  </Class>
-  <Class Name="UML.Biology">
-    <Position X="2.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Biology.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="UML.Animal">
-    <Position X="2.75" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Animal.cs</FileName>
-    </TypeIdentifier>
   </Class>
   <Class Name="UML.Class">
     <Position X="3.5" Y="8.75" Width="1.5" />
@@ -95,18 +74,11 @@
       <Property Name="teachers" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Interface Name="UML.ILivable" Collapsed="true">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+  <Interface Name="UML.ILivable">
+    <Position X="6" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ILivable.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="UML.IWorkable" Collapsed="true">
-    <Position X="8" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IWorkable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="微软雅黑" Size="9" />

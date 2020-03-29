@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UML
 {
-    class Teacher : Person, ILivable, IWorkable
+    class Teacher : Person, ILivable
     {
         public double Salary { get; set; }
 
@@ -34,9 +34,9 @@ namespace UML
             Console.WriteLine("教学中……");
         }
 
-        public void Work()
+        public void Call(MobilePhone phone)
         {
-            Console.WriteLine("教师上班");
+            phone.Transfer();
         }
     }
 }

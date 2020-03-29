@@ -6,10 +6,4 @@ using System.Threading.Tasks;
 
 namespace UML
 {
-    interface IWorkable
-    {
-        void Work();
-
-        void Gain();
-    }
 }

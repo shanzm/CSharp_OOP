@@ -23,13 +23,9 @@ using System.Threading.Tasks;
 ///但是，右键可以显示相应的关系
 namespace UML
 {
-    public class Person : Animal
+    public abstract class Person
     {
-        public enum Gender
-        {
-            male,
-            female
-        }
+
         public string Name { get; set; }
         public int Age { get; set; }
 
