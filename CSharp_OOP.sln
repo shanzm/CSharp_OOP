@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory类", "Directory类\Directory类.csproj", "{C9A89005-19A7-4800-8742-A705ECC6B73C}"
 EndProject
@@ -162,6 +162,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "新建类4", "新建类\新建类4\新建类4.csproj", "{B9CB5FD5-0015-437D-BF23-557D2BA7BA1A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "新建类", "新建类", "{2428F458-C5BD-4439-A2D1-5391298552ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04反射应用-反射获取对象属性", "04反射应用-反射获取对象属性\04反射应用-反射获取对象属性.csproj", "{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -633,6 +635,14 @@ Global
 		{B9CB5FD5-0015-437D-BF23-557D2BA7BA1A}.Release|Any CPU.ActiveCfg = Release|x86
 		{B9CB5FD5-0015-437D-BF23-557D2BA7BA1A}.Release|x86.ActiveCfg = Release|x86
 		{B9CB5FD5-0015-437D-BF23-557D2BA7BA1A}.Release|x86.Build.0 = Release|x86
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -687,5 +697,9 @@ Global
 		{EFD19229-4B43-4F05-9468-C5171BFE7773} = {2428F458-C5BD-4439-A2D1-5391298552ED}
 		{AE0E082E-909A-4DE3-A699-714502565E11} = {2428F458-C5BD-4439-A2D1-5391298552ED}
 		{B9CB5FD5-0015-437D-BF23-557D2BA7BA1A} = {2428F458-C5BD-4439-A2D1-5391298552ED}
+		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF} = {D1497853-150B-4683-BE41-855CF164F7C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03738F08-DE4D-4D68-B465-A30A7339DC42}
 	EndGlobalSection
 EndGlobal

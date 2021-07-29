@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 
 namespace 里氏转换
@@ -9,6 +10,7 @@ namespace 里氏转换
     {
         static void Main(string[] args)
         {
+            #region 里氏转换原则
             Person p = new Person();
             Student s = new Student();
             Teacher t = new Teacher();
@@ -23,7 +25,7 @@ namespace 里氏转换
                 switch (rNumber)
                 {
 
-                        ///里氏转换——子类对象可以赋值给父类对象
+                    ///里氏转换——子类对象可以赋值给父类对象
                     case 1: personArray[i] = p; break;
                     case 2: personArray[i] = s; break;
                     case 3: personArray[i] = t; break;
@@ -35,7 +37,10 @@ namespace 里氏转换
                 if (personArray[i] is Student)
                 {
                     ///里氏转换——父类对象可以强制转换为子类对象
-                    ((Student)personArray[i]).SayHello();
+                    //((Student)personArray[i]).SayHello();
+
+                    //这里可以使用as关键字
+                    (personArray[i] as Student).SayHello();
                 }
                 else if (personArray[i] is Teacher)
                 {
@@ -46,9 +51,12 @@ namespace 里氏转换
                     ((Driver)personArray[i]).SayHello();
                 }
             }
+            #endregion
+
+
 
             Console.ReadKey();
-            
+
 
         }
 
@@ -83,5 +91,9 @@ namespace 里氏转换
                 Console.WriteLine("我是司机");
             }
         }
+
+
+
+
     }
 }
