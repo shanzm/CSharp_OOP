@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _04反射应用_反射获取对象属性
+namespace _05反射应用_反射获取对象属性
 {
     class Program
     {

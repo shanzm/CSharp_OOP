@@ -163,7 +163,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "新建类4", "新建类\新
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "新建类", "新建类", "{2428F458-C5BD-4439-A2D1-5391298552ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04反射应用-反射获取对象属性", "04反射应用-反射获取对象属性\04反射应用-反射获取对象属性.csproj", "{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05反射应用-反射获取对象属性", "反射\05反射应用-反射获取对象属性\05反射应用-反射获取对象属性.csproj", "{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06反射应用-反射获取对象属性-实现遍历对象属性", "反射\06反射应用-反射获取对象属性-实现遍历对象属性\06反射应用-反射获取对象属性-实现遍历对象属性.csproj", "{5DEA2E48-81FF-4278-8A29-5D88D18C7812}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -644,6 +646,14 @@ Global
 		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}.Release|x86.Build.0 = Release|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Debug|x86.Build.0 = Debug|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Release|x86.ActiveCfg = Release|Any CPU
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -699,6 +709,7 @@ Global
 		{AE0E082E-909A-4DE3-A699-714502565E11} = {2428F458-C5BD-4439-A2D1-5391298552ED}
 		{B9CB5FD5-0015-437D-BF23-557D2BA7BA1A} = {2428F458-C5BD-4439-A2D1-5391298552ED}
 		{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF} = {D1497853-150B-4683-BE41-855CF164F7C1}
+		{5DEA2E48-81FF-4278-8A29-5D88D18C7812} = {D1497853-150B-4683-BE41-855CF164F7C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03738F08-DE4D-4D68-B465-A30A7339DC42}

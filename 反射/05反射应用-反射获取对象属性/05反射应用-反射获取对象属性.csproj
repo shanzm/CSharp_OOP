@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{32DC394C-01B4-4D7A-92BF-E98CEE9D92CF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04反射应用_反射获取对象属性</RootNamespace>
-    <AssemblyName>04反射应用-反射获取对象属性</AssemblyName>
+    <RootNamespace>_05反射应用_反射获取对象属性</RootNamespace>
+    <AssemblyName>05反射应用-反射获取对象属性</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
