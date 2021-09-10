@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using System.Linq;
 using System.Reflection;
 
 namespace _06反射应用_反射获取对象属性_实现遍历对象属性
@@ -20,7 +22,13 @@ namespace _06反射应用_反射获取对象属性_实现遍历对象属性
             //ForeachHashtable(hsStudent);
 
             //遍历Hashtable并修改
-            UpdateHashtable(hsStudent);
+            //UpdateHashtable(hsStudent);
+
+            //将对象集合转为Datatable
+            //TestToDataTable();
+
+            //将Datatable转为对象集合
+            TestToList();
             Console.ReadKey();
         }
 
@@ -73,6 +81,27 @@ namespace _06反射应用_反射获取对象属性_实现遍历对象属性
 
         }
 
+        private static void TestToDataTable()
+        {
+            List<Student> students = new List<Student>()
+            {
+                new Student() { Name = "张三", ChineseScore = 100, EnglishScore = 100, MathScore = 100, PEScore = 100 },
+                new Student() { Name = "张三" },
+            };
+            DataTable dt = ConvertHelper.ToDataTable(students);
+        }
+
+
+        private static void TestToList()
+        {
+            DataTable dtStudent = new DataTable("Student");
+            dtStudent.Columns.Add("Name", Type.GetType("System.String"));
+            dtStudent.Columns.Add("ChineseScore", Type.GetType("System.Int32"));
+            dtStudent.Rows.Add(new object[] { "张三", 100 });
+            dtStudent.Rows.Add(new object[] { "李四", 200 });
+
+            List<Student> students = ConvertHelper.ConvertToModel<Student>(dtStudent).ToList();
+        }
 
         class Student
         {
@@ -82,71 +111,155 @@ namespace _06反射应用_反射获取对象属性_实现遍历对象属性
             public int MathScore { get; set; }
             public int PEScore { get; set; }
         }
-    }
 
 
-    /// <summary>
-    /// Hashtable和T对象互相转换辅助类
-    /// </summary>
-    public static class HashTableHelper
-    {
+
         /// <summary>
-        /// C# Hashtable转object实体对象
+        /// Hashtable和T对象互相转换辅助类
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="source"></param>
-        /// <returns></returns>
-        public static T Hashtable2Object<T>(Hashtable source)
+        public static class HashTableHelper
         {
-            T obj = Activator.CreateInstance<T>();
-            object tv;
-
-            PropertyInfo[] ps = obj.GetType().GetProperties(System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public);
-            foreach (PropertyInfo p in ps)
+            /// <summary>
+            /// C# Hashtable转object实体对象
+            /// </summary>
+            /// <typeparam name="T"></typeparam>
+            /// <param name="source"></param>
+            /// <returns></returns>
+            public static T Hashtable2Object<T>(Hashtable source)
             {
-                if (source.ContainsKey(p.Name))
-                {
-                    tv = source[p.Name];
+                T obj = Activator.CreateInstance<T>();
+                object tv;
 
-                    if (p.PropertyType.IsArray)//数组类型,单独处理
+                PropertyInfo[] ps = obj.GetType().GetProperties(System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public);
+                foreach (PropertyInfo p in ps)
+                {
+                    if (source.ContainsKey(p.Name))
                     {
-                        p.SetValue(obj, tv, null);
-                    }
-                    else
-                    {
-                        if (string.IsNullOrEmpty(tv.ToString()))//空值
+                        tv = source[p.Name];
+
+                        if (p.PropertyType.IsArray)//数组类型,单独处理
                         {
-                            tv = p.PropertyType.IsValueType ? Activator.CreateInstance(p.PropertyType) : null;//值类型
+                            p.SetValue(obj, tv, null);
                         }
                         else
                         {
-                            tv = System.ComponentModel.TypeDescriptor.GetConverter(p.PropertyType).ConvertFromString(tv.ToString());//创建对象
-                        }
+                            if (string.IsNullOrEmpty(tv.ToString()))//空值
+                            {
+                                tv = p.PropertyType.IsValueType ? Activator.CreateInstance(p.PropertyType) : null;//值类型
+                            }
+                            else
+                            {
+                                tv = System.ComponentModel.TypeDescriptor.GetConverter(p.PropertyType).ConvertFromString(tv.ToString());//创建对象
+                            }
 
-                        p.SetValue(obj, tv, null);
+                            p.SetValue(obj, tv, null);
+                        }
                     }
                 }
+
+                return obj;
             }
 
-            return obj;
+            /// <summary>
+            /// C# 实体对象Object转HashTable
+            /// </summary>
+            /// <typeparam name="T"></typeparam>
+            /// <param name="obj"></param>
+            /// <returns></returns>
+            public static Hashtable Object2Hashtable(object obj)
+            {
+                Hashtable hash = new Hashtable();
+
+                PropertyInfo[] ps = obj.GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public);
+                foreach (PropertyInfo p in ps)
+                {
+                    hash.Add(p.Name, p.GetValue(obj));
+                }
+                return hash;
+            }
         }
 
-        /// <summary>
-        /// C# 实体对象Object转HashTable
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="obj"></param>
-        /// <returns></returns>
-        public static Hashtable Object2Hashtable(object obj)
-        {
-            Hashtable hash = new Hashtable();
 
-            PropertyInfo[] ps = obj.GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public);
-            foreach (PropertyInfo p in ps)
+
+        /// <summary>
+        /// Datatable与泛型集合互相转换辅助类
+        /// 参考：https://www.cnblogs.com/shiyh/p/7478241.html
+        /// </summary>
+        public static class ConvertHelper
+        {
+
+            /// <summary>
+            /// IEnumerable泛型对象集合转为Datatable
+            /// </summary>
+            /// <typeparam name="T">泛型</typeparam>
+            /// <param name="collection"></param>
+            /// <returns></returns>
+            public static DataTable ToDataTable<T>(IEnumerable<T> collection)
             {
-                hash.Add(p.Name, p.GetValue(obj));
+                PropertyInfo[] props = typeof(T).GetProperties();
+                DataTable dt = new DataTable(typeof(T).Name);
+                dt.Columns.AddRange(props.Select(p => new DataColumn(p.Name, p.PropertyType)).ToArray());
+                if (collection.Count() > 0)
+                {
+                    for (int i = 0; i < collection.Count(); i++)
+                    {
+                        ArrayList tempList = new ArrayList();
+                        foreach (PropertyInfo pi in props)
+                        {
+                            object obj = pi.GetValue(collection.ElementAt(i), null);
+                            tempList.Add(obj);
+                        }
+                        object[] array = tempList.ToArray();
+                        dt.LoadDataRow(array, true);
+                    }
+                }
+                return dt;
             }
-            return hash;
+
+
+            /// <summary>
+            /// 将Datatable转换为对象集合
+            /// </summary>
+            /// <typeparam name="T"></typeparam>
+            /// <param name="dt"></param>
+            /// <returns></returns>
+            public static IList<T> ConvertToModel<T>(DataTable dt) where T : new()
+            {
+                // 定义集合    
+                IList<T> ts = new List<T>();
+
+                // 获得此模型的类型   
+                Type type = typeof(T);
+                string tempName = "";
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    T t = new T();
+                    // 获得此模型的公共属性      
+                    PropertyInfo[] propertys = t.GetType().GetProperties();
+                    foreach (PropertyInfo pi in propertys)
+                    {
+                        tempName = pi.Name;  // 检查DataTable是否包含此列    
+
+                        if (dt.Columns.Contains(tempName))
+                        {
+                            // 判断此属性是否有Setter      
+                            if (!pi.CanWrite)
+                            {
+                                continue;
+                            }
+
+                            object value = dr[tempName];
+                            if (value != DBNull.Value)
+                            {
+                                pi.SetValue(t, value, null);
+                            }
+                        }
+                    }
+                    ts.Add(t);
+                }
+                return ts;
+            }
         }
     }
 }
