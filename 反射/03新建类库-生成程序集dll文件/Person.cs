@@ -1,11 +1,11 @@
 ﻿#region
 // ===============================================================================
 // Project Name        :    Common
-// Project Description :   
+// Project Description :
 // ===============================================================================
 // Class Name          :    Person
 // Class Version       :    v1.0.0.0
-// Class Description   :   
+// Class Description   :
 // Author              :    shanzm
 // Create Time         :    2018-6-10 15:33:27
 // Update Time         :    2018-6-10 15:33:27
@@ -25,11 +25,12 @@ namespace Common
     /// 注意这个项目是类库类型
     /// 我们新建一个类库，一般我们不用其自带的Class.cs这个类
     /// 我们可以在这个项目中自己添加新的类，这个类库项目的所有类最终都会编译到程序集文件Common.dll中
-    /// 
+    ///
     /// 注意类库项目用来生成dll文件的，不能运行，要点击“生成”
     /// </summary>
     public class Person
     {
+        private string name;
         public string Name { get; set; }
 
         public char Gender { get; set; }
@@ -43,13 +44,9 @@ namespace Common
             this.Age = age;
         }
 
-       
-
         public void Do()
         {
-
             Console.WriteLine("123454567899");
         }
-
     }
 }
