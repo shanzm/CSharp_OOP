@@ -18,10 +18,11 @@ namespace 键值对集合Hashtable
 
             ///赋值的其他方法
             hs[4] = "d";
-            hs[4] = "e";
+            hs[4] = "e";//将之前的重新赋值
 
             Console.WriteLine(hs[1]);
             Console.WriteLine(hs[false]);
+            Console.WriteLine(hs[4]);
 
             if (hs.ContainsKey(1))
             {
